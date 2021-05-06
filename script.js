@@ -3,7 +3,7 @@ document.getElementById('calculate')
   .addEventListener('click', myFunction)
 
 function myFunction () {
-  <!--convert number to integer-->
+
   const num1 = parseInt(document.getElementById('base1').value)
   const num2 = parseInt(document.getElementById('base2').value)
   const num3 = parseInt(document.getElementById('height').value)
