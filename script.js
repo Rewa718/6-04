@@ -1,4 +1,4 @@
-<!--add event to button when clicked-->
+
 document.getElementById('calculate')
   .addEventListener('click', myFunction)
 
