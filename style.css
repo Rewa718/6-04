@@ -1,0 +1,12 @@
+.color {
+  background-color: skyblue;
+}
+
+.answer {
+  font-weight: bold;
+}
+
+.photo {
+  float: right;
+  clear: right;
+}

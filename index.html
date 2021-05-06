@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>6-04 daily assignment</title>
+    <!--add style to page-->
+    <style>
+        .color {
+            background-color: skyblue;
+        }
+
+        .answer {
+          font-weight: bold;
+        }
+
+        .photo {
+          float: right;
+          clear: right;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="color">
+  <!--add heading to webpage-->
+    <h1>Calculate the area of a trapezoid</h1>
+    <!--present formula as paragraph-->
+    <p>A = a + b/2 *h</p>
+    <!--add textboxes to input numbers-->
+    insert base-<input type="text" id="base1">
+    <br>
+    insert base-<input type="text" id="base2">
+    <br>
+    insert height-<input type="text" id="height">
+    <!--add button-->
+    <button id= calculate>Calculate</button>
+    <br>
+    <br>
+   
+    <img class="photo" src="images/area-trapezoid.png" alt="trapezoid" height="200px" width="200px"
+     <!--div displays answer on screen-->
+    <div class="answer" id="displayans"></div>
+    
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>
