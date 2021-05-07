@@ -7,6 +7,6 @@ function myFunction () {
   const num2 = parseInt(document.getElementById('base2').value)
   const num3 = parseInt(document.getElementById('height').value)
 
-  const ans = (num1 + num2) / 2 * num3;
-  document.getElementById('displayans').innerText = 'Answer=' + ans;
+  const ans = (num1 + num2) / 2 * num3
+  document.getElementById('displayans').innerText = 'Answer=' + ans
 }
